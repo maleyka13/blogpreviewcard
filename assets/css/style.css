@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  background-color: hsl(47, 88%, 63%);
+}
+.content {
+  max-width: 300px;
+  width: 100%;
+  padding: 18px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 8px 8px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+.content img {
+  border-radius: 7px;
+  width: 270px;
+}
+.content .card-info {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 15px;
+}
+.content .foot {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+}
+.content .foot img {    
+  width: 34px;
+  height: 35px;
+}
+.content .card-info .learn {
+  background-color: hsl(47, 88%, 63%);
+  padding: 3px 7px;
+  font-size: 11px;
+  font-weight: 800;
+  border-radius: 3px;
+}
+.content .card-info .publish {
+  font-size: 12px;
+  font-weight: 600;
+}
+.content .card-info h3 {
+  font-size: 16px;
+  font-weight: 900;
+}
+.content .card-info .text {
+  font-size: 12px;
+  color: hsl(0, 0%, 50%);
+}
+.content .card-info .foot h6 {
+  font-weight: 900;
+}
